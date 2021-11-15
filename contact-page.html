@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="author" content="INSPIRO" />
+    <meta name="description" content="Themeforest Template Polo, html template">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Document title -->
+    <title>Contact | Wise & Agile Solutions</title>
+    <!-- Stylesheets & Fonts -->
+    <link href="css/plugins.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- START: BODY INNER -->
+    <div class="body-inner">
+
+        <!-- START: HEADER -->
+        <header id="header" data-fullwidth="true">
+            <div class="header-inner text-light" style="background: #2a227c;">
+                <div class="container">
+
+                    <!-- START: LOGO -->
+                    <div id="logo"> <a href="home-page.html"><span class="logo-default">WIZAG</span></a> </div>
+                    <!-- END: LOGO -->
+                    
+                    <!-- START: RESPONSIVE NAV TRIGGER -->
+                    <div id="mainMenu-trigger">
+                        <a class="lines-button x"><span class="lines"></span></a>
+                    </div>
+                    <!-- END: RESPONSIVE NAV TRIGGER -->
+
+                    <!-- START: NAVIGATION -->
+                    <div id="mainMenu">
+                        <div class="container">
+                            <nav>
+                                <ul>
+                                    <li><a href="home-page.html">Home</a></li>
+                                    <li><a href="about-page.html">About</a></li>
+                                    <li><a href="products-page.html">Products</a></li>
+                                    <li><a href="services-page.html">Services</a></li>
+                                    <li><a href="contact-page.html">Contact</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <!-- END: NAVIGATION -->
+                </div>
+            </div>
+        </header>
+        <!-- END: HEADER -->
+
+        <!-- START: PAGE TITLE -->
+        <section id="page-title">
+            <div class="container">
+                <div class="page-title">
+                    <h1>Contact Us</h1>
+                    <span>Please feel free to use the form to contact our team about any inquiry.</span>
+                </div>
+            </div>
+        </section>
+        <!-- END: PAGE TITLE -->
+
+        <!-- START: CONTACT FORM -->
+        <section id="page-content">
+            <div class="container">
+                <div class="row">
+                    <div class="content col-lg-9">
+                        <h4>Client Inquiry Form</h4>
+                        <div class="card">
+                            <div class="card-body">
+                                <!--Wizard 7-->
+                                <form class="needs-validation" validate>
+                                    <div class="h5 mb-4">Please fill the form with the required information</div>
+
+                                    <div class="form-row">
+                                        <div class="form-group col-md-12">
+                                            <label for="name">First Name*</label>
+                                            <input type="text" class="form-control" name="name" placeholder="Enter your Name" required>
+                                        </div>
+                                        <div class="form-group col-md-12">
+                                            <label for="surname">Last Name</label>
+                                            <input type="text" class="form-control" name="surname" placeholder="Enter your Surname">
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="form-row">
+                                        <div class="form-group col-md-12">
+                                            <label for="email">Email Address*</label>
+                                            <input type="email" class="form-control" name="email" placeholder="Enter your Email Address" required>
+                                        </div>
+                                        <div class="form-group col-md-12">
+                                            <label for="subject">Inquiry Subject*</label>
+                                            <select class="form-select" name="subject" required>
+                                                <option>General</option>
+                                                <option>Office Software Solutions</option>
+                                                <option>Consultation Services</option>
+                                                <option>Project Execution Services</option>
+                                                <option>Hosting Services</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group col-md-12">
+                                            <label for="message">Message</label>
+                                            <textarea type="text" name="widget-contact-form-message" rows="8" class="form-control required" placeholder="Enter your Message"></textarea>
+                                        </div>
+                                    </div>
+                                    
+                                    <!-- File Uploader -->
+                                    <div class="form-row">
+                                        <div class="form-group">
+                                            <label for="fileUpload3" class="d-block">Upload Documents</label>
+                                            <a class="dropzone-attach-files btn btn-sm mb-0">Attach files</a>
+                                            <div class="d-none" id="fileUpload3" action="/file-upload" class="dropzone">
+                                                <div class="fallback">
+                                                    <input name="file" type="file" multiple />
+                                                </div>
+                                            </div>
+                                            <!-- Preview -->
+                                            <div class="mt-3" id="formFiles3"></div>
+                                            <div class="d-none" id="formTemplate3">
+                                                <div class="card mb-3">
+                                                    <div class="p-2">
+                                                        <div class="row align-items-start">
+                                                            <div class="col-auto">
+                                                                <img data-dz-thumbnail src="#" class="avatar border rounded">
+                                                            </div>
+                                                            <div class="col ps-0">
+                                                                <a href="#" class="text-muted fw-bold" data-dz-name></a>
+                                                                <p class="mb-0"><small data-dz-size></small> <small class="d-block text-danger" data-dz-errormessage></small></p>
+                                                            </div>
+                                                            <div class="col-auto pt-2">
+                                                                <a class="btn-lg text-danger" href="#" data-dz-remove><i class="icon-trash-2"></i></a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- end: File preview template -->
+                                            <small id="dropzoneHelp" class="form-text text-muted">Max file size is 2MB and max number of files is 5.</small>
+                                        </div>
+                                    
+                                    </div>
+                                    <!-- File Uploader -->
+                                </form>
+                                <div class="line"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- END: CONTACT FORM -->
+
+        <!-- START: FOOTER -->
+        <footer id="footer">
+            <div class="footer-content">
+                <div class="container">
+                    <div class="row gap-y">
+                        <div class="col-md-6 col-xl-4">
+                            <div class="logo">
+                                <img src="images/Wizag_Logo_No_BG.png" alt="wizag-logo" style="width: 300px; justify-self: center;">
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-3 col-xl-2 text-center">
+                            <!-- Footer widget area 1 -->
+                            <div class="widget">
+                                <h4>CONTACT</h4>
+                                <ul class="list">
+                                    <li><i class="fas fa-phone-alt"></i>&nbsp;&nbsp;<a href="+254 711 408 108">+254 711 408 108</a></li>
+                                    <li><i class="fas fa-phone-alt"></i>&nbsp;&nbsp;<a href="+254 732 456 456">+254 732 456 456</a></li>
+                                    <li><i class="fas fa-envelope"></i>&nbsp;&nbsp;<a href="mailto:info@wizag.biz">info@wizag.biz</a></li>
+                                </ul>
+                            </div>
+                            <!-- end: Footer widget area 1 -->
+                        </div>
+                        <div class="col-6 col-md-3 col-xl-2 text-center">
+                            <!-- Footer widget area 2 -->
+                            <div class="widget">
+                                <h4>MENU</h4>
+                                <ul class="list">
+                                    <li><a href="#">Home</a></li>
+                                    <li><a href="about-page.html">About</a></li>
+                                    <li><a href="products-page.html">Products</a></li>
+                                    <li><a href="#">Services</a></li>
+                                    <li><a href="contact-page.html">Contact</a></li>
+                                </ul>
+                            </div>
+                            <!-- end: Footer widget area 2 -->
+                        </div>
+                        <div class="col-6 col-md-6 col-xl-2 text-center">
+                            <!-- Footer widget area 3 -->
+                            <div class="widget">
+                                <h4>SOCIALS</h4>
+                                <div class="social-icons social-icons-colored social-icons-rounded float-right">
+                                    <ul>
+                                        <li class="social-facebook"><a href="https://web.facebook.com/wizag/?_rdc=1&_rdr"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li class="social-twitter"><a href="https://twitter.com/_wizag?lang=en"><i class="fab fa-twitter"></i></a></li>
+                                        <li class="social-linkedin"><a href="https://www.linkedin.com/company/wizag"><i class="fab fa-linkedin-in"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- end: Footer widget area 3 -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright-content">
+                <div class="container">
+                    <div class="copyright-text text-center">&copy; 2021 WIZAG. All Rights Reserved.</div>
+                </div>
+            </div>
+        </footer>
+        <!-- END: FOOTER -->
+        
+    </div>
+    <!-- end: Body Inner -->
+    <!-- Scroll top -->
+    <a id="scrollTop"><i class="icon-chevron-up"></i><i class="icon-chevron-up"></i></a>
+    <!--Plugins-->
+    <script src="js/jquery.js"></script>
+    <script src="js/plugins.js"></script>
+    <!--Template functions-->
+    <script src="js/functions.js"></script>
+    <!-- Dropzone plugin files-->
+    <link href="plugins/dropzone/dropzone.css" rel="stylesheet">
+    <script src="plugins/dropzone/dropzone.js"></script>
+    <script>
+        Dropzone.autoDiscover = false;
+        //Form 3
+        var form3 = $('#fileUpload3');
+        form3.dropzone({
+            url: "http://polo/files/post",
+            maxFilesize: 5,
+            acceptedFiles: "image/*",
+            previewsContainer: "#formFiles3",
+            previewTemplate: $("#formTemplate3").html(),
+            clickable: ".dropzone-attach-files"
+        });
+    </script>
+</body>
+
+</html>
