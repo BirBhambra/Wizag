@@ -3048,7 +3048,9 @@ Helpers
 .text-small { font-size: 16px; font-weight: 800; line-height: 1.1; }
 
 .text-light, .text-light h1, .text-light h2, .text-light h3, .text-light h4, .text-light h5, .text-light h6, .text-light .lead, .text-light p, .text-light a:not(.btn), .text-light a:not(.btn):hover:not(.btn-light), .text-light i, .text-light li, .text-light label, .text-light div:not(.alert), .text-light span:not(.btn-label) { color: #fff !important; }
-
+@media (max-width:700px){
+  .text-light, .text-light h1, .text-light h2, .text-light h3, .text-light h4, .text-light h5, .text-light h6, .text-light .lead, .text-light p, .text-light a:not(.btn), .text-light a:not(.btn):hover:not(.btn-light), .text-light i, .text-light li, .text-light label, .text-light div:not(.alert), .text-light span:not(.btn-label) { color: #000000 !important; }
+}
 .text-dark, .text-dark h1, .text-dark h2, .text-dark h3, .text-dark h4, .text-dark h5, .text-dark h6, .text-dark p, .text-dark .lead, .text-dark a:not(.btn), .text-dark a:not(.btn-danger), .text-dark a:not(.btn):hover:not(.btn-light), .text-dark i, .text-dark li, .text-dark label, .text-dark div:not(.alert), .text-dark span:not(.btn-label) { color: #111 !important; }
 
 .text-grey, .text-grey h1, .text-grey h2, .text-grey h3, .text-grey h4, .text-grey h5, .text-grey h6, .text-grey .lead, .text-grey p, .text-grey a:not(.button), .text-grey a:not(.btn-light):hover, .text-grey i, .text-grey li, .text-grey label, .text-grey div:not(.alert), .text-grey span:not(.btn-label) { color: #ccc; }
@@ -6456,7 +6458,7 @@ body.breakpoint-xl .pricing-table .col-lg-2 .plan-list ul li, body.breakpoint-lg
 
 video { width: 100%; }
 
-.bg-overlay { position: absolute; top: 0; left: 0; bottom: 0; right: 0; width: 100%; height: 100%; content: ' '; z-index: 0; background: rgba(0, 0, 0, 0.59); opacity: .5; }
+.bg-overlay { position: absolute; top: 0; left: 0; bottom: 0; right: 0; width: 100%; height: 100%; content: ' '; z-index: 0; background: rgba(0, 0, 0, 1); opacity: .7; }
 
 .bg-overlay[data-style="1"] { background: #fff; }
 
