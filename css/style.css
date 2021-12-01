@@ -5067,7 +5067,7 @@ div.icon-box:before { display: none !important; }
 
 div.icon-box:before { display: none !important; }
 
-.icon-box { margin-bottom: 50px; position: relative; }
+.icon-box { position: relative; }
 
 .icon-box .icon { height: 64px; position: absolute; width: 64px; }
 
